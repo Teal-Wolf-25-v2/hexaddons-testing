@@ -361,6 +361,7 @@ select:hover {
     justify-content: center;
     align-content: end;
     grid-gap: 3%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
