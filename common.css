@@ -223,7 +223,7 @@ select:hover {
 
 .addonCard{
     width: min-content;
-    min-width: 40%;
+    min-width: 55%;
     height: min-content;
     min-height: 50%;
     position: relative;
@@ -377,7 +377,7 @@ select:hover {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 25%;
+    width: 50%;
 }
 
 .linkShelf a {
