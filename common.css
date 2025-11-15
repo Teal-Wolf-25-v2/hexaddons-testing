@@ -168,7 +168,7 @@ select:hover {
 .addonSectionGrid{
     width: 80vw;
     position: relative;
-    left: 10vw;
+    left: 3vw;
     display: grid;
     grid-auto-flow: row;
     justify-content: space-between;
