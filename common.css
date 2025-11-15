@@ -223,7 +223,7 @@ select:hover {
 
 .addonCard{
     width: min-content;
-    min-width: 8rem;
+    min-width: 8.2rem;
     height: min-content;
     min-height: 50%;
     position: relative;
