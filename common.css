@@ -168,11 +168,11 @@ select:hover {
 .addonSectionGrid{
     width: 80vw;
     position: relative;
-    left: 3vw;
+    left: 10vw;
     display: grid;
     grid-auto-flow: row;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
 }
 
 #addonsOptions{
