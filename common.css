@@ -314,8 +314,14 @@ select:hover {
     position: relative;
     border-bottom: solid 2px var(--mediapink);
     display: flex;
+}
+
+
+.addonCardInfo{
+    display: flex;
     flex-direction: column;
 }
+
 
 .platformShelf{
     position: relative;
