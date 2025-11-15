@@ -311,6 +311,7 @@ select:hover {
     height: max-content;
     width: 90%;
     left: 5%;
+    right: 5%;
     padding-bottom: 1rem;
     position: relative;
     border-bottom: solid 2px var(--mediapink);
