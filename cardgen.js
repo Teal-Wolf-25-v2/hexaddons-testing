@@ -399,13 +399,12 @@ var genCard = (addon) => {
     <div class="addonCard ${platformClasses} ${versionClasses} ${addon.type}TypeCard" id="${addon.name}Card">
         <div class="addonCardHeader">
             <img src="${iconUrl}" alt="${addon.name} icon" class="addonIcon">
+            <b class="addonTitle${addon.hex_provided ? " hexProvidedTitle" : ""}">${addon.name}</b>
+            ${authorStr}
             <div class="addonSubheader">
-                <h3 class="addonTitle${addon.hex_provided ? " hexProvidedTitle" : ""}">${addon.name}</h3>
-                ${authorStr}
+                ${links}
             </div>
         </div>
-        <div class="platformShelf">${platformIcons} ${platformDivider} ${versionIcons}</div>
-        <div class="linkShelf">${links}</div>
         ${banner}
     </div>
     `
