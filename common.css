@@ -172,7 +172,7 @@ select:hover {
     display: grid;
     grid-auto-flow: row;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
 }
 
 #addonsOptions{
