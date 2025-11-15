@@ -405,7 +405,6 @@ var genCard = (addon) => {
             </div>
         </div>
         <div class="platformShelf">${platformIcons} ${platformDivider} ${versionIcons}</div>
-        <p class="addonDescription">${addon.description}</p>
         <div class="linkShelf">${links}</div>
         ${banner}
     </div>
@@ -425,7 +424,6 @@ var genToolCard = (tool) => {
         <div class="addonCardHeader">
             <h3 class="addonTitle"><a href="${tool.link}">${tool.name}</a></h3>
         </div>
-        <p class="addonDescription">${tool.description}</p>
     </div>
     `
     return card;
