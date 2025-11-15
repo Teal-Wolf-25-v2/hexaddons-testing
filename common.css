@@ -314,6 +314,7 @@ select:hover {
     position: relative;
     border-bottom: solid 2px var(--mediapink);
     display: flex;
+    flex-direction: column;
 }
 
 .platformShelf{
