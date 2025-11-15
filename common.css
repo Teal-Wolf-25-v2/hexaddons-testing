@@ -222,7 +222,7 @@ select:hover {
 }
 
 .addonCard{
-    width: 93%;
+    width: 60%;
     height: min-content;
     min-height: 50%;
     position: relative;
@@ -253,7 +253,7 @@ select:hover {
 
 .addonCard .addonIcon{
     aspect-ratio: 1;
-    width: 27%;
+    width: auto;
     height: 100%;
     position: relative;
     top: 1rem;
@@ -270,13 +270,13 @@ select:hover {
 }
 
 .addonCard .addonSubheader{
-    width: 66%;
+    width: 20%;
     height: auto;
     position: relative;
     padding-top: 10%;
     margin-top: 0;
     margin-bottom: 0;
-    left: 5%;
+    left: 2%;
     float: left;
     word-break: break-word;
     justify-content: start;
@@ -358,7 +358,7 @@ select:hover {
 .linkShelf{
     position: relative;
     bottom: 0;
-    width: 10%;
+    width: 100%;
     left: 0;
     height: min-content;
     transition: left 0.25s;
