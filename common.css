@@ -352,7 +352,7 @@ select:hover {
 .linkShelf{
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 10%;
     left: 0;
     height: min-content;
     transition: left 0.25s;
