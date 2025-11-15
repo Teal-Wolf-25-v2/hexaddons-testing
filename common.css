@@ -172,7 +172,7 @@ select:hover {
     display: grid;
     grid-auto-flow: row;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
 }
 
 #addonsOptions{
@@ -223,7 +223,7 @@ select:hover {
 
 .addonCard{
     width: min-content;
-    min-width: 55%;
+    min-width: 8rem;
     height: min-content;
     min-height: 50%;
     position: relative;
